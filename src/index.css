@@ -11,3 +11,65 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+* {
+  margin: 0;
+  padding: 0;
+  font-family: sans-serif;
+  box-sizing: border-box;
+  text-decoration: none;
+}
+
+.wrapper {
+  display: flex;
+  justify-content: center;
+  padding: 50px;
+}
+
+.input-wrapper {
+  width: 300px;
+}
+
+.input-wrapper input {
+  min-width: 264px;
+  padding: 5px;
+  border: 1px solid darkorange;
+  background-color: transparent;
+}
+
+.add-btn {
+  padding: 6px;
+  background-color: darkorange;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.todo-wrapper {
+  min-width: 300px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border: none;
+  background-color: gainsboro;
+  padding: 15px;
+  margin: 10px 0;
+}
+
+.buttons{
+  display: flex;
+  gap: 10px;
+}
+
+.edit-btn {
+  border: none;
+  width: 20px;
+  height: 20px;
+  background-color: transparent;
+}
+
+.completed {
+  background-color: darkgoldenrod;
+}
+
+
